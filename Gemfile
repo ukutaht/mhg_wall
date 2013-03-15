@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.12'
+gem 'omniauth-facebook'
+gem 'omniauth'
 
 group :development, :test do
   gem 'sqlite3', '1.3.5'
